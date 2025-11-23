@@ -20,7 +20,7 @@ This is a command-line application for building, modifying, and querying an weig
 | `graph.py` | Weighted graph implemented using adjacency lists |
 | `dynamic_dijkstra.py` | Dijkstra’s algorithm + dynamic path invalidation mechanism |
 | `event_handler.py` | Command parser and event dispatcher |
-| `cli.py` | Main CLI entry point |
+| `main.py` | Main CLI entry point |
 | `tests/test.py` | Unit tests for shortest path logic |
 | `examples/example.txt` | Sample command file for automated input |
 
@@ -32,4 +32,4 @@ This is a command-line application for building, modifying, and querying an weig
 From the project root:
 
 ```bash
-python src/cli.py
+python src/main.py
