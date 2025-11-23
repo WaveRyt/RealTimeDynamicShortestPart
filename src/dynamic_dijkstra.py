@@ -59,9 +59,6 @@ class DynamicShortestPath:
         path.reverse()
 
         return path, dist[target]
-
-    def invalidate_cache(self):
-        self._cache.clear()
     
     def notify_edge_changed(self):
-        self.invalidate_cache()
+        self._cache.clear()
