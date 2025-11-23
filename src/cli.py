@@ -7,7 +7,7 @@ def run():
     g = Graph(directed= False)
     dsp = DynamicShortestPath(g)
     eh = EventHandler(g, dsp)
-    print("DynamicRoadNetwork Python CLI. Commands: ADD, UPDATE, REMOVE, SHORTEST, NODES, EDGES, QUIT")
+    print("DynamicRoadNetwork Python CLI.\nCommands: ADD, UPDATE, REMOVE, SHORTEST, NODES, EDGES, QUIT")
 
     for line in sys.stdin:
         line = line.strip()
