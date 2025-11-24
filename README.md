@@ -22,7 +22,7 @@ This is a command-line application for building, modifying, and querying an weig
 | `event_handler.py` | Command parser and event dispatcher |
 | `main.py` | Entry point for real-time graph manipulation and shortest-path queries |
 | `tests/test.py` | Pytest-based unit tests for shortest path logic |
-| `examples/example.txt` | Sample command file for automated input |
+| `examples/example.txt` | Sample commands for graph manipulation and shortest-path queries |
 
 ---
 
