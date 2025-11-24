@@ -26,6 +26,20 @@ This is a command-line application for building, modifying, and querying an weig
 
 ---
 
+## Commands
+
+| Command | Description |
+|------|-------------|
+| `ADD u v w` | Adds an edge u-v with weight w |
+| `UPDATE u v w` | Updates the weight of the edge u-v to w |
+| `REMOVE u v` | Removes the edge u-v |
+| `SHORTEST s t` | Computes the shortest path and distance from start s to target t |
+| `NODES` | Lists all the nodes |
+| `EDGES` | Lists all the edges with their weights|
+| `QUIT` | Ends the program |
+
+---
+
 ## Run Instructions
 
 ### Interactive Mode
