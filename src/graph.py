@@ -47,10 +47,10 @@ class Graph:
         for u, nbrs in self.adj.items():
             for v, w in nbrs.items():
                 if not self.directed:
-                    cur_edge = tuple(sorted(u, v), w)
+                    cur_edge = (*sorted([u, v]), w)
                     if cur_edge in edges:
                         continue
-                edges.add(tuple(sorted(u, v), w))
+                edges.add((*sorted([u, v]), w))
         
         return list(edges)
 
