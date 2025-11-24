@@ -15,8 +15,8 @@ def run():
         if not line:
             continue
         
-        if line.upper() in ("QUIT", "EXIT"):
-            print("Exited")
+        if line.upper() in ("QUIT"):
+            print("Ending....")
             break
 
         out = eh.handle(line)
