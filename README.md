@@ -20,8 +20,8 @@ This is a command-line application for building, modifying, and querying an weig
 | `graph.py` | Weighted graph implemented using adjacency lists |
 | `dynamic_dijkstra.py` | Dijkstra’s algorithm + dynamic path invalidation mechanism |
 | `event_handler.py` | Command parser and event dispatcher |
-| `main.py` | Main CLI entry point |
-| `tests/test.py` | Unit tests for shortest path logic |
+| `main.py` | Entry point for real-time graph manipulation and shortest-path queries |
+| `tests/test.py` | Pytest-based unit tests for shortest path logic |
 | `examples/example.txt` | Sample command file for automated input |
 
 ---
@@ -33,3 +33,19 @@ From the project root:
 
 ```bash
 python src/main.py
+
+---
+
+## Running Tests (pytest)
+
+Ensure pytest is installed:
+
+```bash
+pip install pytest
+```
+
+Run all tests:
+
+```bash
+python -m pytest
+```
