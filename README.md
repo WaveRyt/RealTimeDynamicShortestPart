@@ -33,6 +33,7 @@ From the project root:
 
 ```bash
 python src/main.py
+```
 
 ---
 
